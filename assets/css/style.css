@@ -334,6 +334,7 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
+  
 }
 
 .info-content .name {
@@ -1339,7 +1340,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { width: 90px; }
 
   .info-content .name { margin-bottom: 15px; }
 
@@ -1880,3 +1881,38 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills-column {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px; /* Đảm bảo cột không quá hẹp */
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  background: #333; /* Màu nền của ô */
+  padding: 20px;
+  border-radius: 10px;
+  color: white; /* Màu chữ */
+}
+
+.skills-item {
+  margin-bottom: 10px;
+}
+
+
+
+.h3.skills-title {
+  color: white; /* Màu chữ tiêu đề */
+  text-align: center; /* Canh giữa tiêu đề */
+}
+
+
+
+
